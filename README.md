@@ -29,3 +29,11 @@ ReactDOM is library (or package). It makes all React Elements can be into HTML b
 
 ### 2.3 Events in React
 
+eventListener 대신에 React에서 바로 event 관리하는 방법.
+
+코드 작성
+![](md-img/2.3-1.png)
+결과
+![](md-img/2.3-2.png)
+![](md-img/2.3-3.png)
+h3 위에 마우스를 올리거나 버튼을 클릭하면 console에 찍힌다.
