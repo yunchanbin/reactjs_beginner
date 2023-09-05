@@ -57,3 +57,26 @@ HTML에서 사용한 문법과 비슷한 문법으로 리액트 요소를 만들
 아래 형식으로 작성하고 babel을 설치하면 JSX 문법을 사용할 수 있다.
 
 https://unpkg.com/@babel/standalone/babel.min.js
+
+<br>
+
+### 2.6 JSX part Two
+
+먼저, Title과 Button을 함수로 만들어 준다.
+![](md-img/2.6-1.png)
+`() =>` 쓰면 함수로 만들어 줄 수 있음(arrow funtion)
+![](md-img/2.6-2.png)
+이렇게 return 써서 함수 만드는 거랑 완전히 같음.
+
+![](md-img/2.6-3.png)
+컴포넌트의 이니셜은 반드시 대문자로.
+저 노란색 자리에 return 값이 들어간다고 생각하면 됨. 실제로 컴포넌트를 나누지 않고 저기다 그냥 한번에 적어도 상관 없음.
+
+![](md-img/2.6-4.png)
+마지막으로 Container도 함수로 만들어주고 컴포넌트를 렌더링 하면 된다.
+
+<br>
+
+# 3 STATE
+
+### 3.0 Understanding State
