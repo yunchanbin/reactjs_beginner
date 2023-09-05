@@ -33,7 +33,19 @@ eventListener 대신에 React에서 바로 event 관리하는 방법.
 
 코드 작성
 ![](md-img/2.3-1.png)
+property 자리에 object로 넣어주면 됨.
+
 결과
 ![](md-img/2.3-2.png)
 ![](md-img/2.3-3.png)
 h3 위에 마우스를 올리거나 버튼을 클릭하면 console에 찍힌다.
+
+<br>
+
+### 2.4 Recap
+
+개발자로서 앞으로 이렇게 프로그램을 짤 일은 없다. 즉, 앞으로는 createElement를 사용하지 않는다.(다른 방법 사용.)
+
+<br>
+
+### 2.5 
