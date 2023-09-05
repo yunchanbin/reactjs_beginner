@@ -9,7 +9,11 @@
     <script>
         const root = document.getElementById("root");
         //javascript로 element를 생성하고, React JS가 그걸 HTML로 번역한다.
-        const span = React.createElement("span", {id:"sexy-span", style:{color:"red"}}, "Hello I'm a span");
+        const span = React.createElement(
+            "span", 
+            {id:"sexy-span", style:{color:"red"}}, 
+            "Hello I'm a span"
+        );
         ReactDOM.render(span, root);
     </script>
 </html>
