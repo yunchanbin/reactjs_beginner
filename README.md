@@ -166,3 +166,17 @@ React.js에서는 데이터가 바뀔때마다 컴포넌트를 리랜더링하�
 <br>
 
 ### - 3.5 Input and State
+
+분->시간 단위 바꾸기
+
+![](md-img/3.5-1.png)
+<small>lable -> label 오타 수정</small>
+
+JSX에서 이렇게는 안됨. for은 javascript에서 사용되는 언어이므로 html에서 사용하듯이 property를 추가할 수 없다. class도 똑같이 쓸 수 없음.
+
+class는 className으로,
+for은 htmlFor로 사용해야 함.
+
+- uncontrolled :
+  input의 value를 이용할 수 없기 때문에 React.js에서 이러한 input을 uncontrolled라고 한다.
+  ![](md-img/3.5-2.png)
