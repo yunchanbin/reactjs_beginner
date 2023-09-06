@@ -1,9 +1,6 @@
 # ReactJS로 영화 웹 서비스 만들기
 
-## 목차
-
 - [ReactJS로 영화 웹 서비스 만들기](#reactjs로-영화-웹-서비스-만들기)
-  - [목차](#목차)
 - [2 THE BASICS OF REACT](#2-the-basics-of-react)
   - [- 2.0 Introduction](#--20-introduction)
   - [- 2.1 Before React](#--21-before-react)
@@ -14,6 +11,7 @@
   - [- 2.6 JSX part Two](#--26-jsx-part-two)
 - [3 STATE](#3-state)
   - [- 3.0 Understanding State](#--30-understanding-state)
+  - [- 3.1 setState part One](#--31-setstate-part-one)
 
 # 2 THE BASICS OF REACT
 
@@ -110,3 +108,24 @@ countUp 함수가 실행될 때 마다 re-rendering 시켜주면 ui도 새로고
 
 ![](md-img/3.0-4.png)
 아예 render라는 함수를 새로 정의해서 사용.
+
+여기서 바닐라 js랑 차이점은, counter가 바뀌면서 span 전체가 새로고침 되는게 아니라 {counter} 부분만 re-rendering 된다.
+
+<br>
+
+### - 3.1 setState part One
+
+이제 React.js 어플 내에서 데이터를 보관하고 자동으로 리랜더링을 일으킬 수 있는 방법을 배운다.(트리거가 발동해서 리랜더링 시켜줌)
+
+(일단 데이터를 let 변수에 담는 것이 기존의 컨셉이었다.)
+
+- `React.useState([초기값])`
+  ![](md-img/3.1-1.png)
+  여기서 undifined 된 부분이 데이터고, 뒤에 f가 data를 바꿀때 하용하는 함수.
+
+> - 배열에서 item을 꺼내서 각각의 변수에 담는 법
+>   ![](md-img/3.1-2.png)
+>   이렇게 하면 myFavFood는 tomato가 되고, mySecondFavFood는 potato가 된다.
+
+배열에 이름을 붙여줌.
+![](md-img/3.1-3.png)
