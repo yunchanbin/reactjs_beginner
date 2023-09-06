@@ -13,6 +13,9 @@
   - [- 3.0 Understanding State](#--30-understanding-state)
   - [- 3.1 setState part One](#--31-setstate-part-one)
   - [- 3.2 setState part Two](#--32-setstate-part-two)
+  - [- 3.3 Recap](#--33-recap)
+  - [- 3.4 State Function](#--34-state-function)
+  - [- 3.5 Input and State](#--35-input-and-state)
 
 # 2 THE BASICS OF REACT
 
@@ -143,3 +146,23 @@ counter가 바뀌기 때문에 let으로 바꿔주고, 버튼에 이벤트 리�
 - modifier function : 데이터를 그 값으로 업데이트 한 후 자동으로 리랜더링을 일으킨다.
 
 ![](md-img/3.2-2.png)
+다시 const로 선언한 거 잘 봐라. modifier로 데이터 값을 바꾸면 const로 선언해도 된다.
+
+<br>
+
+### - 3.3 Recap
+
+React.js에서는 데이터가 바뀔때마다 컴포넌트를 리랜더링하고 UI를 refresh한다.
+
+<br>
+
+### - 3.4 State Function
+
+- `[function name]([현재 값] => [현재 값에 연산])` :
+  이전 데이터를 바탕으로 새로운 데이터를 설정하고 싶다면,
+  ![](md-img/3.4-1.png)
+  이렇게 계산하는 것이 안전하다. 왜냐면 current값이 변질되지 않은 현재 값이라는 것을 보증해주기 때문.
+
+<br>
+
+### - 3.5 Input and State
