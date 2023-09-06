@@ -16,6 +16,7 @@
   - [- 3.3 Recap](#--33-recap)
   - [- 3.4 State Function](#--34-state-function)
   - [- 3.5 Input and State](#--35-input-and-state)
+  - [- 3.6 State Practice part One](#--36-state-practice-part-one)
 
 # 2 THE BASICS OF REACT
 
@@ -178,5 +179,16 @@ class는 className으로,
 for은 htmlFor로 사용해야 함.
 
 - uncontrolled :
-  input의 value를 이용할 수 없기 때문에 React.js에서 이러한 input을 uncontrolled라고 한다.
+  input의 value를 통제할 수 없기 때문에 React.js에서 이러한 input을 uncontrolled라고 한다.
   ![](md-img/3.5-2.png)
+
+코드 작성
+![](md-img/3.5-3.png)
+event 이용하는 건 javascript에서랑 똑같이 하면 됨.
+
+<br>
+
+### - 3.6 State Practice part One
+
+코드 작성
+![](md-img/3.6-1.png)
