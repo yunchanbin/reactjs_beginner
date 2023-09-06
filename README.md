@@ -17,6 +17,7 @@
   - [- 3.4 State Function](#--34-state-function)
   - [- 3.5 Input and State](#--35-input-and-state)
   - [- 3.6 State Practice part One](#--36-state-practice-part-one)
+  - [- 3.7 State Practice part Two](#--37-state-practice-part-two)
 
 # 2 THE BASICS OF REACT
 
@@ -192,3 +193,22 @@ event 이용하는 건 javascript에서랑 똑같이 하면 됨.
 
 코드 작성
 ![](md-img/3.6-1.png)
+
+### - 3.7 State Practice part Two
+
+flip function을 이용해서 단위 변환의 반대과정(시 --> 분)을 구현한다.
+
+![](md-img/3.7-1.png)
+onFlip 함수가 작동하면 state 함수가 작동해서 flipped 값을 반대로 뒤집는다.
+
+하지만 앞에서말했듯이 state의 계산을 데이터를 바탕으로 하는 것은 좋지 못하다.
+current value를 사용하는게 좋음.
+![](md-img/3.7-2.png)
+
+disabled 까지 작성해주면 button은 제대로 동작함.
+![](md-img/3.7-3.png)
+
+- 삼항연산자 (`[조건] ? [참일때 출력] : [거짓일때 출력]`)
+
+코드 작성
+![](md-img/3.7-4.png)
