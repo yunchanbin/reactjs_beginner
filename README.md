@@ -12,6 +12,7 @@
 - [3 STATE](#3-state)
   - [- 3.0 Understanding State](#--30-understanding-state)
   - [- 3.1 setState part One](#--31-setstate-part-one)
+  - [- 3.2 setState part Two](#--32-setstate-part-two)
 
 # 2 THE BASICS OF REACT
 
@@ -129,3 +130,16 @@ countUp 함수가 실행될 때 마다 re-rendering 시켜주면 ui도 새로고
 
 배열에 이름을 붙여줌.
 ![](md-img/3.1-3.png)
+
+<br>
+
+### - 3.2 setState part Two
+
+![](md-img/3.2-1.png)
+counter가 바뀌기 때문에 let으로 바꿔주고, 버튼에 이벤트 리스너 달고, 함수 만들어서 실행시켜주면 counter가 잘 올라가고 있다.
+
+이까지는 앞과 동일하고, 어떻게 리랜더링 시켜줄 것인지가 문제.
+
+- modifier function : 데이터를 그 값으로 업데이트 한 후 자동으로 리랜더링을 일으킨다.
+
+![](md-img/3.2-2.png)
