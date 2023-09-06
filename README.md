@@ -18,6 +18,8 @@
   - [- 3.5 Input and State](#--35-input-and-state)
   - [- 3.6 State Practice part One](#--36-state-practice-part-one)
   - [- 3.7 State Practice part Two](#--37-state-practice-part-two)
+  - [- 3.8 Recap](#--38-recap)
+  - [- 3.9 Final Practice and Recap](#--39-final-practice-and-recap)
 
 # 2 THE BASICS OF REACT
 
@@ -212,3 +214,24 @@ disabled 까지 작성해주면 button은 제대로 동작함.
 
 코드 작성
 ![](md-img/3.7-4.png)
+
+<br>
+
+### - 3.8 Recap
+
+![](md-img/3.8-1.png)
+삼항연산자로 버튼 이쁘게 만들 수 있음.
+
+<br>
+
+### - 3.9 Final Practice and Recap
+
+select에 따라 다른 단위를 변환할 수 있도록 App을 구현할 예정이다.
+![](md-img/3.9-1.png)
+
+JSX에서 javascript 코드는 { }안에서 작성할 수 있다.
+![](md-img/3.9-2.png)
+삼항연산자 사용.
+
+![](md-img/3.9-3.png)
+세개 이상의 단위 변환이 있으면 이렇게 사용.
