@@ -20,6 +20,8 @@
   - [- 3.7 State Practice part Two](#--37-state-practice-part-two)
   - [- 3.8 Recap](#--38-recap)
   - [- 3.9 Final Practice and Recap](#--39-final-practice-and-recap)
+- [4 PROPS](#4-props)
+  - [- 4.0 props](#--40-props)
 
 # 2 THE BASICS OF REACT
 
@@ -235,3 +237,9 @@ JSX에서 javascript 코드는 { }안에서 작성할 수 있다.
 
 ![](md-img/3.9-3.png)
 세개 이상의 단위 변환이 있으면 이렇게 사용.
+
+<br>
+
+# 4 PROPS
+
+### - 4.0 props
