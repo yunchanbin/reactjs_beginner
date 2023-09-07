@@ -22,6 +22,7 @@
   - [- 3.9 Final Practice and Recap](#--39-final-practice-and-recap)
 - [4 PROPS](#4-props)
   - [- 4.0 props](#--40-props)
+  - [- 4.1 Memo](#--41-memo)
 
 # 2 THE BASICS OF REACT
 
@@ -243,3 +244,29 @@ JSX에서 javascript 코드는 { }안에서 작성할 수 있다.
 # 4 PROPS
 
 ### - 4.0 props
+
+![](md-img/4.0-1.png)
+두개의 버튼을 생성 했는데, 각 componet를 따로 생성해서 같은 style임에도 불구하고 두번 적어야 함.
+
+이를 해결해주는게 props.
+props는 내가 정한 component를 불러올 때 argument로 사용되는 녀석임.
+
+![](md-img/4.0-2.png)
+여기서는 {banana:"Save Changes"}, {banana:"Continue"} 형태의 오브젝트로 날아감.
+
+![](md-img/4.0-3.png)
+javascript 언어로 보내줄 때는 { }안에다 담아서 보내주기.
+
+- shortcut
+  ![](md-img/4.0-3.png)
+  argument 자리에 { }로 쓰는 형태를 shortcut이라 하고. props보다 더 자주 쓰인다.
+
+  여러 데이터를 한번에 가져올 때는 `{ [a],[b], ... }` 이런 식으로 써주면 됨.
+  ![](md-img/4.0-4.png)
+
+![](md-img/4.0-6.png)
+fontSize에서 3항연산자 이용하면 cool
+
+<br>
+
+### - 4.1 Memo
