@@ -25,8 +25,6 @@
   - [- 4.1 Memo](#--41-memo)
   - [- 4.2 Props Types](#--42-props-types)
   - [- 4.3 Recap](#--43-recap)
-- [5 CREATE REACT APP](#5-create-react-app)
-  - [- 5.0 Introduction](#--50-introduction)
 
 # 2 THE BASICS OF REACT
 
@@ -336,14 +334,3 @@ type이 잘못됐다고 경고 문구 띄워줌.
 복습!!!
 
 <br>
-
-# 5 CREATE REACT APP
-
-### - 5.0 Introduction
-
-ReactJS 어플리케이션을 만들기 편하게 만들어줌.
-
-개발 서버 접근, 자동 새로고침, 어플리케이션 안에 css를 즉각적으로 포함시켜주는 기능 등
-
-먼저, next.js 설치
-https://nodejs.org
