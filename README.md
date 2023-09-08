@@ -340,3 +340,10 @@ type이 잘못됐다고 경고 문구 띄워줌.
 # 5 CREATE REACT APP
 
 ### - 5.0 Introduction
+
+ReactJS 어플리케이션을 만들기 편하게 만들어줌.
+
+개발 서버 접근, 자동 새로고침, 어플리케이션 안에 css를 즉각적으로 포함시켜주는 기능 등
+
+먼저, next.js 설치
+https://nodejs.org
