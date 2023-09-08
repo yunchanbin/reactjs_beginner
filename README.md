@@ -23,6 +23,8 @@
 - [4 PROPS](#4-props)
   - [- 4.0 props](#--40-props)
   - [- 4.1 Memo](#--41-memo)
+  - [- 4.2 Props Types](#--42-props-types)
+  - [- 4.3 Recap](#--43-recap)
 
 # 2 THE BASICS OF REACT
 
@@ -297,3 +299,34 @@ text, boolean은 물론, function까지 보낼 수 있는 것 확인.
   버튼을 클릭하고 console 확인하면 Continue 버튼은 리랜더링 되지 않은 것을 볼 수 있다.
 
   당장 쓰진 않을 수 있지만, React가 어떻게 동작하는지 이해하는데 도움이 된다.
+
+<br>
+
+### - 4.2 Props Types
+
+> ![](md-img/4.2-1.png)
+> 앞서 함수에는 { }씌워서 썼는데 fontSize는 숫자로 받아서 그런지 { } 중괄호 안 쓰네...
+> ![](md-img/4.2-2.png)
+> 심지어 fontSize 이름이 같아서 이렇게 써도 적용 된다구 함..
+
+- PropType은 어떤 type의 props를 받고 있는지 체크해주는 툴 같은 거.
+  ![](md-img/4.2-4.png)
+  PropTypes설치할 땐 이거 react랑 reactDOM development.js로 바꿔줘야 함.
+
+이제 React에게 나는 type을 이렇게 쓸 거라고 설명해주는 부분.
+![](md-img/4.2-3.png)
+대소문자 구분 유의하기.
+
+![](md-img/4.2-5.png)
+type이 잘못됐다고 경고 문구 띄워줌.
+
+- `.isRequired` : props에서 반드시 필요한 거 지정.
+  ![](md-img/4.2-6.png)
+  ![](md-img/4.2-7.png)
+
+![](md-img/4.2-8.png)
+이렇게 필수가 아닌 fontSize에 default 값을 줄 수도 있다. 이건 react가 아니라 javascript임.
+
+<br>
+
+### - 4.3 Recap
