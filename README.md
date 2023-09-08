@@ -270,3 +270,30 @@ fontSize에서 3항연산자 이용하면 cool
 <br>
 
 ### - 4.1 Memo
+
+![](md-img/4.1-1.png)
+커스텀 컴포넌트에다가 이렇게 쓰면 onClick 이벤트 리스너가 아니라 props로 날아감.
+
+![](md-img/4.1-2.png)
+이 버튼 element 안에 onClick event를 추가해야 함.
+
+![](md-img/4.1-3.png)
+onClick을 shortcut으로 가져와서 button에 이벤트 리스너 추가.
+
+![](md-img/4.1-4.png)
+![](md-img/4.1-5.png)
+헷갈리니까 이름도 바꿔주기
+
+text, boolean은 물론, function까지 보낼 수 있는 것 확인.
+
+- React Memo : 바뀌는 부분이 없을 때, 리랜더링 하지 않을 부분을 정해주는 거.
+
+  여기서 Btn 위에꺼 클릭하면 자기 자신은 바뀌는게 있는데 밑에 Continue 버튼은 안바뀜. 이럴 때 리랜더링에서 제외시키려고 함.
+
+- `React.memo(Btn)`
+  ![](md-img/4.1-6.png)
+  Btn을 memo 이용해서 MemorizedBtn으로 만들어주고, MemorizedBtn 컴포넌트를 App에서 불러옴.
+  ![](md-img/4.1-7.png)
+  버튼을 클릭하고 console 확인하면 Continue 버튼은 리랜더링 되지 않은 것을 볼 수 있다.
+
+  당장 쓰진 않을 수 있지만, React가 어떻게 동작하는지 이해하는데 도움이 된다.
