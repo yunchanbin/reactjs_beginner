@@ -25,6 +25,8 @@
   - [- 4.1 Memo](#--41-memo)
   - [- 4.2 Props Types](#--42-props-types)
   - [- 4.3 Recap](#--43-recap)
+- [5 CREATE REACT APP](#5-create-react-app)
+  - [- 5.0 Introduction](#--50-introduction)
 
 # 2 THE BASICS OF REACT
 
@@ -330,3 +332,11 @@ type이 잘못됐다고 경고 문구 띄워줌.
 <br>
 
 ### - 4.3 Recap
+
+복습!!!
+
+<br>
+
+# 5 CREATE REACT APP
+
+### - 5.0 Introduction
